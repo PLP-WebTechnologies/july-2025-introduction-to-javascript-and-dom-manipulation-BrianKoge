@@ -1,0 +1,56 @@
+/* Universal selector */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+  background: #f0f4f8;
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  background: navy;
+  color: white;
+  padding: 20px;
+}
+
+/* Main container */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 15px;
+}
+
+/* Section styling */
+section {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+/* Buttons */
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  background: navy;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkred;
+}
+
+/* Toggle class for DOM manipulation */
+.highlight {
+  background: yellow;
+  font-weight: bold;
+}
